@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1314243104450069893}
   - component: {fileID: 1316691216957052393}
   - component: {fileID: 1324125224260776971}
+  - component: {fileID: 813822723588309308}
   m_Layer: 0
   m_Name: BishopDark
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &813822723588309308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312274993321290893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 854b7951617eceb4a89f8ace9706176e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isWhite: 0

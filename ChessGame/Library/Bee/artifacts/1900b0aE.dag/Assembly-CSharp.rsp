@@ -346,6 +346,7 @@
 "Assets/Scripts/Bishop.cs"
 "Assets/Scripts/BoardHighlight.cs"
 "Assets/Scripts/BoardManager.cs"
+"Assets/Scripts/ButtonControl.cs"
 "Assets/Scripts/ChessP.cs"
 "Assets/Scripts/King.cs"
 "Assets/Scripts/Knight.cs"

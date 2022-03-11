@@ -4,12 +4,13 @@ using Unity;
 
 public class BoardManager : MonoBehaviour
 {
-    public static BoardManager Instance{set;get;}
-    public bool[,] allowedMove {set;get;}
+    public static BoardManager Instance { set; get; }
+    public bool[,] allowedMove { set; get; }
     public ChessP[,] ChessPs { set; get; }
     private ChessP selectedChessP;
     private const float TileSize = 1.0f;
     private const float TileOffset = 0.5f;
+    bool canMove = false;
 
     private int selectionX = -1;
     private int selectionY = -1;
@@ -52,30 +53,38 @@ public class BoardManager : MonoBehaviour
 
         if (ChessPs[x, y].isWhite != isWhiteTurn)
             return;
+    
+        allowedMove = ChessPs[x, y].PossibleMove();
+        for (int i = 0; i < 8; i++)
+            for (int j = 0; j < 8; j++)
+                if (allowedMove[i, j])
+                    canMove = true;
 
-        allowedMove = ChessPs[x,y].PossibleMove();
         selectedChessP = ChessPs[x, y];
         BoardHighlight.Instance.HighlightAllowed(allowedMove);
     }
     private void MoveChessP(int x, int y)
     {
-        if(allowedMove[x,y] == true){
-            ChessP c = ChessPs[x,y];
-            if(c != null && c.isWhite != isWhiteTurn){
+        if (allowedMove[x, y] == true)
+        {
+            ChessP c = ChessPs[x, y];
+            if (c != null && c.isWhite != isWhiteTurn)
+            {
                 //kill piece
                 activeChessP.Remove(c.gameObject);
-                Destroy (c.gameObject);
+                Destroy(c.gameObject);
 
                 //if kill king end game
-                if(c.GetType() == typeof(King)){
-                    //End game
+                if (c.GetType() == typeof(King))
+                {
+                    EndGame();
                     return;
                 }
             }
-            ChessPs [selectedChessP.CurrentX, selectedChessP.CurrentY] = null;
-            selectedChessP.transform.position = GetTileCentre (x,y);
-            selectedChessP.SetPosition(x,y);
-            ChessPs [x, y] = selectedChessP;
+            ChessPs[selectedChessP.CurrentX, selectedChessP.CurrentY] = null;
+            selectedChessP.transform.position = GetTileCentre(x, y);
+            selectedChessP.SetPosition(x, y);
+            ChessPs[x, y] = selectedChessP;
             isWhiteTurn = !isWhiteTurn;
         }
         BoardHighlight.Instance.HideHighlight();
@@ -171,5 +180,17 @@ public class BoardManager : MonoBehaviour
         origin.z += (TileSize * y) + TileOffset;
 
         return origin;
+    }
+    private void EndGame()
+    {
+        if (isWhiteTurn)
+            Debug.Log("White Team wins!");
+        else
+            Debug.Log("Black Team wins!");
+        foreach (GameObject hg in activeChessP)
+            Destroy(hg);
+        isWhiteTurn = true;
+        BoardHighlight.Instance.HideHighlight();
+        SpawnAllP();
     }
 }

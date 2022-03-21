@@ -1,0 +1,655 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1647870201965084, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1647870201966376, "dur": 13484, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1647870201980100, "dur": 68847, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1647870202048981, "dur": 10185, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1647870203915728, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1647870203915919, "dur": 5487, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1647870203921408, "dur": 572632, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1647870204494042, "dur": 12307, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1647870204506786, "dur": 19, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1647870203952861, "dur":617, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870203953486, "dur":70, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1647870203953572, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1647870203953586, "dur":663, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1647870203954310, "dur":346, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870203954656, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465114, "dur":229, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465343, "dur":92, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465435, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465438, "dur":39, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465477, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465479, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465485, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465487, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465509, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465511, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465520, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465522, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465526, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465527, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465532, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465542, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465547, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465548, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465552, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465553, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465568, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465569, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465573, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465574, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465578, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465579, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465583, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465584, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465588, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465589, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465593, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465594, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465601, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465639, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204465717, "dur":826, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1647870203954318, "dur":343, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1647870203954664, "dur":1088, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1647870203955761, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1647870203955764, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1647870203955782, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1647870203955784, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1647870203955840, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1647870203956210, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1647870203957304, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1647870203957317, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1647870203957330, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1647870203957334, "dur":636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1647870203957981, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1647870203957996, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1647870203958010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1647870203958078, "dur":45876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1647870204003967, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1647870204003982, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1647870204004016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1647870204004020, "dur":91959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1647870204095997, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1647870204096007, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1647870204096035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1647870204096044, "dur":62388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1647870204158444, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1647870204158461, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1647870204158500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1647870204158504, "dur":84804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1647870204243318, "dur":47022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1647870204290341, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1647870204290381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1647870204290390, "dur":472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1647870204290871, "dur":174275, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1647870203954349, "dur":326, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1647870203954676, "dur":1081, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1647870203955761, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1647870203955791, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1647870203955844, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1647870203956369, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1647870203957355, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1647870203957373, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1647870203957383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1647870203957385, "dur":23523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1647870203980927, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1647870203980951, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1647870203980970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1647870203980979, "dur":23071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1647870204004062, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1647870204004073, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1647870204004086, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1647870204004090, "dur":78413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1647870204082512, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1647870204082525, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1647870204082540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1647870204082543, "dur":23063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1647870204105614, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1647870204105624, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1647870204105635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1647870204105639, "dur":14583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1647870204120233, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1647870204120243, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1647870204120256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1647870204120259, "dur":76519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1647870204196801, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1647870204196817, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1647870204196837, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1647870204196843, "dur":70823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1647870204267680, "dur":197400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1647870203954363, "dur":319, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1647870203954682, "dur":1076, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1647870203955762, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1647870203955799, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1647870203955845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1647870203956431, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1647870203957356, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1647870203957371, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1647870203957383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1647870203957385, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1647870203960384, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1647870203960412, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1647870203960432, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1647870203960440, "dur":37042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1647870203997502, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1647870203997520, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1647870203997538, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1647870203997544, "dur":84430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1647870204082007, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1647870204082018, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1647870204082164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1647870204082168, "dur":22722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1647870204104902, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1647870204104915, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1647870204104999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1647870204105003, "dur":22905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1647870204127919, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1647870204127931, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1647870204127995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1647870204128002, "dur":25970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1647870204153983, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1647870204153994, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1647870204154010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1647870204154016, "dur":172019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1647870204326044, "dur":139041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1647870203954344, "dur":324, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1647870203954669, "dur":1139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1647870203955808, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1647870203955822, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1647870203955903, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1647870203962732, "dur":497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1647870203963241, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1647870203963258, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1647870203963270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1647870203963274, "dur":38099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1647870204001383, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1647870204001393, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1647870204001412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1647870204001416, "dur":82010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1647870204083434, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1647870204083442, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1647870204083454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1647870204083458, "dur":29634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1647870204113105, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1647870204113119, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1647870204113136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1647870204113141, "dur":14967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1647870204128118, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1647870204128128, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1647870204128140, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1647870204128143, "dur":15197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1647870204143360, "dur":56944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1647870204200304, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1647870204200336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1647870204200341, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1647870204201047, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1647870204201057, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1647870204201072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1647870204201076, "dur":118520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1647870204319604, "dur":145511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1647870203954380, "dur":307, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1647870203954687, "dur":1072, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1647870203955762, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1647870203955784, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1647870203955839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1647870203956287, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1647870203957291, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1647870203957306, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1647870203957321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1647870203957326, "dur":577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1647870203957919, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1647870203957931, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1647870203957947, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1647870203958017, "dur":14541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1647870203972572, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1647870203972591, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1647870203972605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1647870203972609, "dur":109621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1647870204082241, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1647870204082260, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1647870204082275, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1647870204082278, "dur":22427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1647870204104715, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1647870204104731, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1647870204104767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1647870204104771, "dur":85097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1647870204189885, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1647870204189898, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1647870204189920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1647870204189925, "dur":33602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1647870204223543, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1647870204223555, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1647870204223575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1647870204223581, "dur":74236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1647870204297826, "dur":167261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1647870203954402, "dur":290, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1647870203954693, "dur":1076, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1647870203955771, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1647870203955831, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1647870203955916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1647870203972490, "dur":506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1647870203973008, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1647870203973020, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1647870203973032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1647870203973039, "dur":25414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1647870203998466, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1647870203998477, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1647870203998490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1647870203998496, "dur":83356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1647870204081873, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1647870204081889, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1647870204082028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1647870204082033, "dur":34617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1647870204116659, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1647870204116669, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1647870204116680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1647870204116683, "dur":35059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1647870204151758, "dur":162444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1647870204314204, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1647870204314267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1647870204314272, "dur":587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1647870204314868, "dur":150284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870203954421, "dur":276, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870203954697, "dur":1059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870203955762, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1647870203955795, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870203955872, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870203956885, "dur":401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1647870203957311, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1647870203957343, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870203957365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870203957417, "dur":11954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1647870203969392, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1647870203969416, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870203969434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870203969442, "dur":113065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1647870204082521, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1647870204082535, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870204082550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870204082554, "dur":19768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1647870204102335, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1647870204102347, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870204102364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870204102415, "dur":18734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1647870204121161, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1647870204121171, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870204121188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870204121193, "dur":16961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1647870204138166, "dur":29882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1647870204168049, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870204168105, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870204168113, "dur":498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1647870204168625, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1647870204168642, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870204168657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870204168662, "dur":67147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1647870204235823, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1647870204235835, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870204235854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1647870204235860, "dur":45690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1647870204281563, "dur":183604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1647870203954474, "dur":227, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1647870203954701, "dur":1062, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1647870203955771, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1647870203955828, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1647870203955880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1647870203961245, "dur":702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1647870203961964, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1647870203961983, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1647870203961998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1647870203962002, "dur":54102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1647870204016113, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1647870204016130, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1647870204016145, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1647870204016150, "dur":67283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1647870204083446, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1647870204083685, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1647870204083702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1647870204083706, "dur":32728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1647870204116447, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1647870204116458, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1647870204116472, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1647870204116477, "dur":17584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1647870204134076, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1647870204134091, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1647870204134109, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1647870204134116, "dur":75407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1647870204209556, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1647870204209666, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1647870204209685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1647870204209689, "dur":127229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1647870204336928, "dur":128214, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1647870203954500, "dur":206, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1647870203954706, "dur":1104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1647870203955811, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1647870203955838, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1647870203955920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1647870203972905, "dur":344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1647870203973257, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1647870203973272, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1647870203973284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1647870203973287, "dur":42220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1647870204015527, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1647870204015541, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1647870204015562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1647870204015568, "dur":66341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1647870204081920, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1647870204081934, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1647870204081997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1647870204082028, "dur":20288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1647870204102333, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1647870204102348, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1647870204102411, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1647870204102415, "dur":22115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1647870204124542, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1647870204124554, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1647870204124580, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1647870204124586, "dur":21142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1647870204145739, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1647870204145751, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1647870204145790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1647870204145797, "dur":74656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1647870204220466, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1647870204220478, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1647870204220498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1647870204220504, "dur":95351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1647870204315863, "dur":149244, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870203954522, "dur":188, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870203954710, "dur":1056, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870203955768, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1647870203955824, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870203955893, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870203962370, "dur":370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1647870203962753, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1647870203962864, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870203962880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870203962883, "dur":36230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1647870203999124, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1647870203999141, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870203999157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870203999162, "dur":82740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1647870204081914, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1647870204081926, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204081996, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204082026, "dur":20777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1647870204102812, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1647870204102822, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204102834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204102837, "dur":15165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1647870204118014, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1647870204118025, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204118039, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204118043, "dur":17644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1647870204135699, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1647870204135716, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204135739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204135745, "dur":26254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1647870204162011, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1647870204162023, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204162060, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204162066, "dur":93545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1647870204255623, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1647870204255637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204255641, "dur":475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1647870204256125, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1647870204256138, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204256141, "dur":2263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1647870204258413, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1647870204258426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204258431, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1647870204259143, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1647870204259247, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204259272, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204259277, "dur":312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1647870204259600, "dur":612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1647870204260212, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204260284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204260290, "dur":453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1647870204260752, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/level2.resS" }}
+,{ "pid":12345, "tid":10, "ts":1647870204260766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204260768, "dur":460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/level2.resS" }}
+,{ "pid":12345, "tid":10, "ts":1647870204261237, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/level1.resS" }}
+,{ "pid":12345, "tid":10, "ts":1647870204261253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204261256, "dur":442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/level1.resS" }}
+,{ "pid":12345, "tid":10, "ts":1647870204261707, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1647870204261720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204261726, "dur":695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1647870204262435, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1647870204262448, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1647870204262451, "dur":381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1647870204262840, "dur":202242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1647870203954543, "dur":171, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1647870203954714, "dur":1088, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1647870203955803, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1647870203955825, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1647870203955909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1647870203966071, "dur":5495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1647870203971588, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1647870203971613, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1647870203971633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1647870203971663, "dur":111792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1647870204083472, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1647870204083483, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1647870204083500, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1647870204083503, "dur":18810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1647870204102330, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1647870204102351, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1647870204102406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1647870204102413, "dur":23436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1647870204125862, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1647870204125876, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1647870204125890, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1647870204125895, "dur":17437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1647870204143346, "dur":64653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1647870204208000, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1647870204208059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1647870204208067, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1647870204208804, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1647870204208817, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1647870204208835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1647870204208840, "dur":136911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1647870204345760, "dur":119388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870203954560, "dur":158, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870203954718, "dur":1057, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870203955775, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1647870203955798, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870203955852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870203956622, "dur":655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1647870203957289, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1647870203957305, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870203957331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870203957442, "dur":416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1647870203957865, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame.exe" }}
+,{ "pid":12345, "tid":12, "ts":1647870203957879, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870203957902, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870203957905, "dur":42915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame.exe" }}
+,{ "pid":12345, "tid":12, "ts":1647870204000829, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1647870204000840, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870204000853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870204000859, "dur":81033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1647870204081903, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1647870204081917, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870204082019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870204082026, "dur":29080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1647870204111119, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1647870204111136, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870204111155, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870204111161, "dur":16680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1647870204127857, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1647870204127869, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870204127883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870204127888, "dur":30378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1647870204158280, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1647870204158296, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870204158313, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870204158318, "dur":41922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1647870204200252, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1647870204200265, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870204200282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870204200288, "dur":23665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1647870204223964, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1647870204223975, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870204223991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1647870204223995, "dur":66690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1647870204290698, "dur":174411, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1647870203954580, "dur":143, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1647870203954723, "dur":1070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1647870203955794, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1647870203955830, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1647870203955890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1647870203962208, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1647870203963339, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1647870203963352, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1647870203963364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1647870203963368, "dur":36774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1647870204000154, "dur":126524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1647870204126679, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1647870204126705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1647870204126710, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1647870204128134, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1647870204128146, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1647870204128162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1647870204128165, "dur":31547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1647870204159724, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1647870204159735, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1647870204159753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1647870204159758, "dur":113784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1647870204273555, "dur":191561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870203954602, "dur":125, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870203954727, "dur":1046, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870203955774, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1647870203955814, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870203955863, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870203956707, "dur":588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1647870203957308, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1647870203957327, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870203957342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870203957424, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1647870203958350, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1647870203958361, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870203958373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870203958382, "dur":33722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1647870203992146, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1647870203992238, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870203992254, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870203992261, "dur":90526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1647870204082800, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1647870204082812, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870204082827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870204082830, "dur":20608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1647870204103449, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1647870204103459, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870204103473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870204103477, "dur":34148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1647870204137636, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1647870204137652, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870204137667, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870204137672, "dur":24791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1647870204162473, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1647870204162488, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870204162502, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870204162506, "dur":76932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1647870204239453, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1647870204239465, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870204239483, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1647870204239488, "dur":225551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1647870204465050, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":14, "ts":1647870204465052, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1647870203954621, "dur":110, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1647870203954731, "dur":1029, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1647870203955763, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1647870203955803, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1647870203955906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1647870203964180, "dur":391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1647870203964587, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1647870203964607, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1647870203964622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1647870203964626, "dur":20480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1647870203985121, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1647870203985134, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1647870203985149, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1647870203985155, "dur":98260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1647870204083428, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1647870204083438, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1647870204083453, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1647870204083456, "dur":36425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1647870204119894, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1647870204119906, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1647870204119922, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1647870204119926, "dur":26280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1647870204146218, "dur":66831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":15, "ts":1647870204213050, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1647870204213090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1647870204213096, "dur":476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":15, "ts":1647870204213582, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1647870204213600, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1647870204213618, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1647870204213624, "dur":26604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1647870204240237, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1647870204240247, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1647870204240261, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1647870204240264, "dur":116331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1647870204356608, "dur":108562, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870203954642, "dur":93, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870203954735, "dur":1041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870203955777, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1647870203955824, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870203955883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870203961605, "dur":517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1647870203962133, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1647870203962168, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870203962183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870203962198, "dur":37234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1647870203999446, "dur":3398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1647870204002845, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870204002875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870204002880, "dur":112321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1647870204115227, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1647870204115242, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870204115261, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870204115267, "dur":36530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1647870204151807, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1647870204151823, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870204151849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870204151856, "dur":99845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1647870204251715, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":16, "ts":1647870204251741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870204251760, "dur":645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":16, "ts":1647870204252414, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1647870204252431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870204252435, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1647870204254082, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":16, "ts":1647870204254116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870204254120, "dur":358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":16, "ts":1647870204254486, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1647870204254498, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870204254501, "dur":5287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1647870204259798, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1647870204259813, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870204259816, "dur":711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1647870204260535, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1647870204260553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870204260557, "dur":416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1647870204260981, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/level2" }}
+,{ "pid":12345, "tid":16, "ts":1647870204260993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870204260996, "dur":312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/level2" }}
+,{ "pid":12345, "tid":16, "ts":1647870204261316, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/level1" }}
+,{ "pid":12345, "tid":16, "ts":1647870204261329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870204261332, "dur":373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/level1" }}
+,{ "pid":12345, "tid":16, "ts":1647870204261714, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1647870204261732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870204261735, "dur":385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1647870204262131, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1647870204262149, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870204262155, "dur":557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1647870204262721, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles X:/m3d/ChessGame_Data/boot.config" }}
+,{ "pid":12345, "tid":16, "ts":1647870204262777, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870204262791, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1647870204262794, "dur":265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"X:/m3d/ChessGame_Data/boot.config" }}
+,{ "pid":12345, "tid":16, "ts":1647870204263066, "dur":202015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1647870204467449, "dur":1660, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1647870204506854, "dur": 369, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1647870204506750, "dur": 488, "ph": "X", "name": "Write chrome-trace events", "args": {} },

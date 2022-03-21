@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-using Unity;
+using UnityEngine.UI;
 
 public class BoardManager : MonoBehaviour
 {
@@ -20,10 +20,14 @@ public class BoardManager : MonoBehaviour
 
     private Quaternion orientation = Quaternion.Euler(0, 90, 0);
     public bool isWhiteTurn = true;
+    public Image WhiteTurn;
+    public Image BlackTurn;
     private void Start()
     {
         Instance = this;
         SpawnAllP();
+        WhiteTurn.enabled = false;
+        BlackTurn.enabled = false;
     }
     private void Update()
     {
@@ -44,16 +48,25 @@ public class BoardManager : MonoBehaviour
                 }
             }
         }
+        if(isWhiteTurn){
+            WhiteTurn.enabled = true;
+            BlackTurn.enabled = false;
+        }
+        else {
+            BlackTurn.enabled = true;
+            WhiteTurn.enabled = false;
+        }
     }
-
     private void SelectChessP(int x, int y)
     {
         if (ChessPs[x, y] == null)
             return;
 
         if (ChessPs[x, y].isWhite != isWhiteTurn)
+        {
             return;
-    
+        }
+
         allowedMove = ChessPs[x, y].PossibleMove();
         for (int i = 0; i < 8; i++)
             for (int j = 0; j < 8; j++)
@@ -81,6 +94,7 @@ public class BoardManager : MonoBehaviour
                     return;
                 }
             }
+
             ChessPs[selectedChessP.CurrentX, selectedChessP.CurrentY] = null;
             selectedChessP.transform.position = GetTileCentre(x, y);
             selectedChessP.SetPosition(x, y);
